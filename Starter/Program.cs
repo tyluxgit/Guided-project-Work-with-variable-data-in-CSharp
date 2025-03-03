@@ -27,6 +27,7 @@ for (int i = 0; i < maxPets; i++)
             animalPhysicalDescription = "medium sized cream colored female golden retriever weighing about 45 pounds. housebroken.";
             animalPersonalityDescription = "loves to have her belly rubbed and likes to chase her tail. gives lots of kisses.";
             animalNickname = "lola";
+            suggestedDonation = "85.00";
             break;
 
         case 1:
@@ -36,6 +37,7 @@ for (int i = 0; i < maxPets; i++)
             animalPhysicalDescription = "large reddish-brown male golden retriever weighing about 85 pounds. housebroken.";
             animalPersonalityDescription = "loves to have his ears rubbed when he greets you at the door, or at any time! loves to lean-in and give doggy hugs.";
             animalNickname = "gus";
+            suggestedDonation = "49.99";
             break;
         
         case 2:
@@ -45,6 +47,7 @@ for (int i = 0; i < maxPets; i++)
             animalPhysicalDescription = "small white female weighing about 8 pounds. litter box trained.";
             animalPersonalityDescription = "friendly";
             animalNickname = "snow";
+            suggestedDonation = "40.00";
             break;
 
         case 3:
@@ -54,6 +57,7 @@ for (int i = 0; i < maxPets; i++)
             animalPhysicalDescription = "Medium sized, long hair, yellow, female, about 10 pounds. Uses litter box.";
             animalPersonalityDescription = "A people loving cat that likes to sit on your lap.";
             animalNickname = "Lion";
+            suggestedDonation = "";
             break;
         
         default:
@@ -63,6 +67,7 @@ for (int i = 0; i < maxPets; i++)
             animalPhysicalDescription = "";
             animalPersonalityDescription = "";
             animalNickname = "";
+            suggestedDonation = "";
             break;
 
     }

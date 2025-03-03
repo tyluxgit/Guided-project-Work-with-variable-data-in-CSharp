@@ -14,6 +14,7 @@ string suggestedDonation = "";
 int maxPets = 8;
 string? readResult;
 string menuSelection = "";
+decimal decimalDonation = 0.00m;
 
 // #3 array used to store runtime data, there is no persisted data
 string[,] ourAnimals = new string[maxPets, 7];
@@ -82,6 +83,10 @@ for (int i = 0; i < maxPets; i++)
     ourAnimals[i, 4] = "Physical description: " + animalPhysicalDescription;
     ourAnimals[i, 5] = "Personality: " + animalPersonalityDescription;
     ourAnimals[i, 6] = "Suggested Donation: " + suggestedDonation;
+    if (!decimal.TryParse(suggestedDonation, out decimalDonation))
+    {
+        decimalDonation = 45.00m; // if suggestedDonation NOT a number, default to 45.00
+    }
 }
 
 // #5 display the top-level menu options

@@ -13,7 +13,7 @@ string? readResult;
 string menuSelection = "";
 
 // #3 array used to store runtime data, there is no persisted data
-string[,] ourAnimals = new string[maxPets, 6];
+string[,] ourAnimals = new string[maxPets, 7];
 
 // #4 create sample data ourAnimals array entries
 for (int i = 0; i < maxPets; i++)

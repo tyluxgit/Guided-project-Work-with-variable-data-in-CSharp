@@ -78,7 +78,7 @@ for (int i = 0; i < maxPets; i++)
     ourAnimals[i, 3] = "Nickname: " + animalNickname;
     ourAnimals[i, 4] = "Physical description: " + animalPhysicalDescription;
     ourAnimals[i, 5] = "Personality: " + animalPersonalityDescription;
-    
+    ourAnimals[i, 6] = "Suggested Donation: " + suggestedDonation;
 }
 
 // #5 display the top-level menu options

@@ -5,6 +5,7 @@ string animalAge = "";
 string animalPhysicalDescription = "";
 string animalPersonalityDescription = "";
 string animalNickname = "";
+string suggestedDonation = "";
 
 // #2 variables that support data entry
 int maxPets = 8;

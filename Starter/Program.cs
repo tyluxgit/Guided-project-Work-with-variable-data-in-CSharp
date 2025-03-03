@@ -1,4 +1,7 @@
-﻿// #1 the ourAnimals array will store the following: 
+﻿using System.Globalization;
+CultureInfo.CurrentCulture = new CultureInfo("en-US");
+
+// #1 the ourAnimals array will store the following: 
 string animalSpecies = "";
 string animalID = "";
 string animalAge = "";

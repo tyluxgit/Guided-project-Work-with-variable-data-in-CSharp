@@ -87,6 +87,7 @@ for (int i = 0; i < maxPets; i++)
     {
         decimalDonation = 45.00m; // if suggestedDonation NOT a number, default to 45.00
     }
+    ourAnimals[i, 6] = $"Suggested Donation: {decimalDonation:C2}";
 }
 
 // #5 display the top-level menu options
@@ -117,7 +118,7 @@ do
                 if (ourAnimals[i, 0] != "ID #: ")
                 {
                     Console.WriteLine();
-                    for (int j = 0; j < 6; j++)
+                    for (int j = 0; j < 7; j++)
                     {
                         Console.WriteLine(ourAnimals[i, j]);
                     }
